@@ -8,9 +8,17 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/talkAnimation"
-        android:layout_centerInParent="true"
         android:layout_width="500dp"
         android:layout_height="500dp"
-        android:visibility="visible" />
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/wordToSpellText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/talkAnimation"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
 </RelativeLayout>
