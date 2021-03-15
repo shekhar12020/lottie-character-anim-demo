@@ -1,0 +1,28 @@
+{
+  "messages": [
+    {
+      "messageContent": {
+        "text": "I need a help"
+      },
+      "messageTimeStamp": "2020-02-28T11:47:29+0000",
+      "isIncoming": false,
+      "messageStatus": "read"
+    },
+    {
+      "messageContent": {
+        "text": "How can I help you?"
+      },
+      "messageTimeStamp": "2020-02-28T11:50:20+0000",
+      "isIncoming": true,
+      "messageStatus": "recv"
+    },
+    {
+      "messageContent": {
+        "text": "How can I change my PIN?"
+      },
+      "messageTimeStamp": "2020-02-28T11:51:52+0000",
+      "isIncoming": true,
+      "messageStatus": "sent"
+    }
+  ]
+}

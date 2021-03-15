@@ -1,0 +1,284 @@
+{
+  "data": [
+    {
+      "id": "2376",
+      "type": "bank",
+      "attributes": {
+        "b_map": {
+          "plan_type": 1,
+          "trusted": true,
+          "availabilty": true
+        },
+        "name": "Josh Software",
+        "recurring": true,
+        "bank_place": "Pune",
+        "offer_place": "Nashik, Maharashtra, India",
+        "location_time_zone": "Asia/Kolkata",
+        "average_rating": 4.16666666666667,
+        "deal_count": 6,
+        "dealer_id": 75,
+        "available_from": "2020-02-25T09:31:18Z",
+        "available_till": "2020-02-25T12:30:18Z",
+        "available_days": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "latitude": 19.9974533,
+        "longitude": 73.78980229999999,
+        "trusted": false,
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580563349015.jpg",
+        "bank_amount": 1686.1
+      }
+    },
+    {
+      "id": "2376",
+      "type": "bank",
+      "attributes": {
+        "b_map": {
+          "plan_type": 1,
+          "trusted": false,
+          "availabilty": true
+        },
+        "name": "Josh Software",
+        "recurring": true,
+        "bank_place": "Pune",
+        "offer_place": "Nashik, Maharashtra, India",
+        "location_time_zone": "Asia/Kolkata",
+        "average_rating": 4.16666666666667,
+        "deal_count": 6,
+        "dealer_id": 75,
+        "available_from": "2020-02-25T09:31:18Z",
+        "available_till": "2020-02-25T12:30:18Z",
+        "available_days": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "latitude": 19.9974533,
+        "longitude": 73.78980229999999,
+        "trusted": false,
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580563349015.jpg",
+        "bank_amount": 1686.1
+      }
+    },
+    {
+      "id": "2376",
+      "type": "bank",
+      "attributes": {
+        "b_map": {
+          "plan_type": 1,
+          "trusted": false,
+          "availabilty": false
+        },
+        "name": "Josh Software",
+        "recurring": true,
+        "bank_place": "Pune",
+        "offer_place": "Nashik, Maharashtra, India",
+        "location_time_zone": "Asia/Kolkata",
+        "average_rating": 4.16666666666667,
+        "deal_count": 6,
+        "dealer_id": 75,
+        "available_from": "2020-02-25T09:31:18Z",
+        "available_till": "2020-02-25T12:30:18Z",
+        "available_days": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "latitude": 19.9974533,
+        "longitude": 73.78980229999999,
+        "trusted": false,
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580563349015.jpg",
+        "bank_amount": 1686.1
+      }
+    },
+    {
+      "id": "2376",
+      "type": "bank",
+      "attributes": {
+        "b_map": {
+          "plan_type": 1,
+          "trusted": true,
+          "availabilty": false
+        },
+        "name": "Josh Software",
+        "recurring": true,
+        "bank_place": "Pune",
+        "offer_place": "Nashik, Maharashtra, India",
+        "location_time_zone": "Asia/Kolkata",
+        "average_rating": 4.16666666666667,
+        "deal_count": 6,
+        "dealer_id": 75,
+        "available_from": "2020-02-25T09:31:18Z",
+        "available_till": "2020-02-25T12:30:18Z",
+        "available_days": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "latitude": 19.9974533,
+        "longitude": 73.78980229999999,
+        "trusted": false,
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580563349015.jpg",
+        "bank_amount": 1686.1
+      }
+    },
+    {
+      "id": "2376",
+      "type": "bank",
+      "attributes": {
+        "b_map": {
+          "plan_type": 2,
+          "trusted": true,
+          "availabilty": true
+        },
+        "name": "Josh Software",
+        "recurring": true,
+        "bank_place": "Pune",
+        "offer_place": "Nashik, Maharashtra, India",
+        "location_time_zone": "Asia/Kolkata",
+        "average_rating": 4.16666666666667,
+        "deal_count": 6,
+        "dealer_id": 75,
+        "available_from": "2020-02-25T09:31:18Z",
+        "available_till": "2020-02-25T12:30:18Z",
+        "available_days": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "latitude": 19.9974533,
+        "longitude": 73.78980229999999,
+        "trusted": false,
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580563349015.jpg",
+        "bank_amount": 1686.1
+      }
+    },
+    {
+      "id": "2376",
+      "type": "bank",
+      "attributes": {
+        "b_map": {
+          "plan_type": 2,
+          "trusted": false,
+          "availabilty": true
+        },
+        "name": "Josh Software",
+        "recurring": true,
+        "bank_place": "Pune",
+        "offer_place": "Nashik, Maharashtra, India",
+        "location_time_zone": "Asia/Kolkata",
+        "average_rating": 4.16666666666667,
+        "deal_count": 6,
+        "dealer_id": 75,
+        "available_from": "2020-02-25T09:31:18Z",
+        "available_till": "2020-02-25T12:30:18Z",
+        "available_days": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "latitude": 19.9974533,
+        "longitude": 73.78980229999999,
+        "trusted": false,
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580563349015.jpg",
+        "bank_amount": 1686.1
+      }
+    },
+    {
+      "id": "2376",
+      "type": "bank",
+      "attributes": {
+        "b_map": {
+          "plan_type": 2,
+          "trusted": false,
+          "availabilty": false
+        },
+        "name": "Josh Software",
+        "recurring": true,
+        "bank_place": "Pune",
+        "offer_place": "Nashik, Maharashtra, India",
+        "location_time_zone": "Asia/Kolkata",
+        "average_rating": 4.16666666666667,
+        "deal_count": 6,
+        "dealer_id": 75,
+        "available_from": "2020-02-25T09:31:18Z",
+        "available_till": "2020-02-25T12:30:18Z",
+        "available_days": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "latitude": 19.9974533,
+        "longitude": 73.78980229999999,
+        "trusted": false,
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580563349015.jpg",
+        "bank_amount": 1686.1
+      }
+    },
+    {
+      "id": "2376",
+      "type": "bank",
+      "attributes": {
+        "b_map": {
+          "plan_type": 2,
+          "trusted": true,
+          "availabilty": false
+        },
+        "name": "Josh Software",
+        "recurring": true,
+        "bank_place": "Pune",
+        "offer_place": "Nashik, Maharashtra, India",
+        "location_time_zone": "Asia/Kolkata",
+        "average_rating": 4.16666666666667,
+        "deal_count": 6,
+        "dealer_id": 75,
+        "available_from": "2020-02-25T09:31:18Z",
+        "available_till": "2020-02-25T12:30:18Z",
+        "available_days": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "latitude": 19.9974533,
+        "longitude": 73.78980229999999,
+        "trusted": false,
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580563349015.jpg",
+        "bank_amount": 1686.1
+      }
+    }
+  ]
+}

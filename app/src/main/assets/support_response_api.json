@@ -1,0 +1,761 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "type": "feedback",
+      "attributes": {
+        "title": "Fees",
+        "action": {
+          "show_deals": true
+        },
+        "topics": [
+          {
+            "data": {
+              "id": "2",
+              "type": "feedback",
+              "attributes": {
+                "title": "Claim fees",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "3",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Bank did not show up",
+                        "action": {
+                          "notify": true,
+                          "rule": "send_bank_request"
+                        },
+                        "topics": [],
+                        "message": "Thank you, we will get in touch with the Bank to check\n this case."
+                      }
+                    }
+                  },
+                  {
+                    "data": {
+                      "id": "4",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "I clicked by mistake on a NOW deal \nand got matched",
+                        "action": {
+                          "notify": true,
+                          "rule": "check_if_now_deal"
+                        },
+                        "topics": [],
+                        "message": "Thank you, we will check this case and come back to \nyou."
+                      }
+                    }
+                  },
+                  {
+                    "data": {
+                      "id": "5",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "My fees got charged twice or more",
+                        "action": {
+                          "notify": true,
+                          "rule": "same_fee_charged"
+                        },
+                        "topics": [],
+                        "message": "Thank you, we will check this case and come back to \nyou."
+                      }
+                    }
+                  },
+                  {
+                    "data": {
+                      "id": "6",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Exchanged amount was less than agreed in App",
+                        "action": {},
+                        "topics": [],
+                        "message": "As per our terms and conditions, applicable fees are \nalways based on the amount agreed in the request. \nPlease refer to our terms & conditions for \nfurther questions. \nHappy to have you with us."
+                      }
+                    }
+                  },
+                  {
+                    "data": {
+                      "id": "7",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "I have cancelled the deal",
+                        "action": {},
+                        "topics": [],
+                        "message": "As per our terms and conditions, cancellations need to \nhappen in the app before the deal time. Please refer to\n our terms & conditions for further questions. \nHappy to have you with us."
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "8",
+              "type": "feedback",
+              "attributes": {
+                "title": "Why did I pay that amount of fees?",
+                "action": {
+                  "notify": true,
+                  "rule": "calculate_fee"
+                },
+                "topics": [],
+                "message": null
+              }
+            }
+          }
+        ],
+        "message": "nil"
+      }
+    },
+    {
+      "id": "9",
+      "type": "feedback",
+      "attributes": {
+        "title": "Problem with Bank/Getter",
+        "action": {
+          "show_deals": true
+        },
+        "topics": [
+          {
+            "data": {
+              "id": "10",
+              "type": "feedback",
+              "attributes": {
+                "title": "Bank/Getter behaviour was not appropriate",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "11",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "I want to rate the Bank/Getter",
+                        "action": {
+                          "display": "rate_pop_up"
+                        },
+                        "topics": [],
+                        "message": "nil\n"
+                      }
+                    }
+                  },
+                  {
+                    "data": {
+                      "id": "12",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "I want to report this user",
+                        "action": {},
+                        "topics": [
+                          {
+                            "data": {
+                              "id": "13",
+                              "type": "feedback",
+                              "attributes": {
+                                "title": "Unfriendly",
+                                "action": {
+                                  "display": "text_box",
+                                  "rule": "notify_admin"
+                                },
+                                "topics": [],
+                                "message": "Please give us more information, why you are unhappy with the Bank/Getter"
+                              }
+                            }
+                          },
+                          {
+                            "data": {
+                              "id": "14",
+                              "type": "feedback",
+                              "attributes": {
+                                "title": "Aggressive",
+                                "action": {
+                                  "notify": true,
+                                  "display": "text_box",
+                                  "rule": "notify_admin"
+                                },
+                                "topics": [],
+                                "message": "Please give us more information, why you are unhappy with the Bank/Getter"
+                              }
+                            }
+                          },
+                          {
+                            "data": {
+                              "id": "15",
+                              "type": "feedback",
+                              "attributes": {
+                                "title": "Sexual harassment",
+                                "action": {
+                                  "notify": true,
+                                  "display": "text_box",
+                                  "rule": "notify_admin"
+                                },
+                                "topics": [],
+                                "message": "Please give us more information, why you are unhappy with the Bank/Getter"
+                              }
+                            }
+                          },
+                          {
+                            "data": {
+                              "id": "16",
+                              "type": "feedback",
+                              "attributes": {
+                                "title": "Other",
+                                "action": {
+                                  "notify": true,
+                                  "display": "text_box",
+                                  "rule": "notify_admin"
+                                },
+                                "topics": [],
+                                "message": "Please give us more information, why you are unhappy with the Bank/Getter."
+                              }
+                            }
+                          }
+                        ],
+                        "message": "nil"
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "17",
+              "type": "feedback",
+              "attributes": {
+                "title": "Bank/Getter used counterfeit money",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "18",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "I realized when doing the deal",
+                        "action": {
+                          "notify": true,
+                          "display": "text_box",
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Please report this incident as per local law to respective authorities. Please let us know in case you have further information."
+                      }
+                    }
+                  },
+                  {
+                    "data": {
+                      "id": "19",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "I realized later",
+                        "action": {
+                          "notify": true,
+                          "display": "text_box",
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Please report this incident as per law to respective authorities. Please let us know in case you have further information."
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "20",
+              "type": "feedback",
+              "attributes": {
+                "title": "Bank/Getter went away before giving me my exchange",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "21",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Report this user",
+                        "action": {
+                          "notify": true,
+                          "display": "text_box",
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Please report this incident as per law to respective authorities. Please let us know in case you have further information."
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "22",
+              "type": "feedback",
+              "attributes": {
+                "title": "Bank/Getter is not matching with profile",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "23",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Report this user",
+                        "action": {
+                          "notify": "true",
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Thank you for letting us know and supporting the Bebanx family"
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "24",
+              "type": "feedback",
+              "attributes": {
+                "title": "Bank/Getter wanted to do offline deal",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "25",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "I did not agree",
+                        "action": {
+                          "notify": "true"
+                        },
+                        "topics": [],
+                        "message": "Thank you for letting us know and supporting the Bebanx family"
+                      }
+                    }
+                  },
+                  {
+                    "data": {
+                      "id": "26",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "I agreed",
+                        "action": {
+                          "notify": true
+                        },
+                        "topics": [],
+                        "message": "Thank you for reporting this. Please note that this is not in line with our terms & conditions. In order to provide our service to you, please do not accept such deals in future anymore."
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          }
+        ],
+        "message": null
+      }
+    },
+    {
+      "id": "27",
+      "type": "feedback",
+      "attributes": {
+        "title": "Technical problem",
+        "action": {},
+        "topics": [
+          {
+            "data": {
+              "id": "28",
+              "type": "feedback",
+              "attributes": {
+                "title": "My Paypal transaction did not work",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "29",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Report this",
+                        "action": {
+                          "notify": "true",
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Thank you for letting us know and supporting the Bebanx family."
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "30",
+              "type": "feedback",
+              "attributes": {
+                "title": "I could not text the Bank/Getter",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "31",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Report this",
+                        "action": {},
+                        "topics": [],
+                        "message": "Thank you for reporting this. As a general note: you can only text with other users until the deal was closed."
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "32",
+              "type": "feedback",
+              "attributes": {
+                "title": "I could not use the camera in the chat",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "33",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Report this",
+                        "action": {
+                          "notify": true,
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Thank you for letting us know and supporting the Bebanx family"
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "34",
+              "type": "feedback",
+              "attributes": {
+                "title": "I did not get a rating request",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "35",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Report this",
+                        "action": {
+                          "notify": true,
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Thank you for letting us know and supporting the Bebanx family."
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "36",
+              "type": "feedback",
+              "attributes": {
+                "title": "I had issues with Google maps",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "37",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Report this",
+                        "action": {
+                          "notify": true,
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Thank you for letting us know and supporting the Bebanx family."
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "38",
+              "type": "feedback",
+              "attributes": {
+                "title": "I had issues with the microphone",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "39",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Report this",
+                        "action": {
+                          "notify": true,
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Thank you for letting us know and supporting the Bebanx family."
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "40",
+              "type": "feedback",
+              "attributes": {
+                "title": "Bebanx was crashing",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "41",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Report this",
+                        "action": {
+                          "notify": true,
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Thank you for letting us know and supporting the Bebanx family."
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "42",
+              "type": "feedback",
+              "attributes": {
+                "title": "FX rate was not up to date",
+                "action": {},
+                "topics": [
+                  {
+                    "data": {
+                      "id": "43",
+                      "type": "feedback",
+                      "attributes": {
+                        "title": "Report this",
+                        "action": {
+                          "notify": true,
+                          "rule": "notify_admin"
+                        },
+                        "topics": [],
+                        "message": "Thank you for reporting this. As a general note: we are using latest FX rates from XE.com"
+                      }
+                    }
+                  }
+                ],
+                "message": "nil"
+              }
+            }
+          }
+        ],
+        "message": null
+      }
+    },
+    {
+      "id": "44",
+      "type": "feedback",
+      "attributes": {
+        "title": "My account",
+        "action": {},
+        "topics": [
+          {
+            "data": {
+              "id": "45",
+              "type": "feedback",
+              "attributes": {
+                "title": "Change password",
+                "action": {
+                  "display": "change_password"
+                },
+                "topics": [],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "46",
+              "type": "feedback",
+              "attributes": {
+                "title": "Change payment method",
+                "action": {
+                  "display": "change_payment_method"
+                },
+                "topics": [],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "47",
+              "type": "feedback",
+              "attributes": {
+                "title": "Change phone number",
+                "action": {
+                  "display": "change_phone_number"
+                },
+                "topics": [],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "48",
+              "type": "feedback",
+              "attributes": {
+                "title": "Change home town/residence town",
+                "action": {
+                  "display": "change_home_town"
+                },
+                "topics": [],
+                "message": "nil"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "49",
+              "type": "feedback",
+              "attributes": {
+                "title": "Add payment method",
+                "action": {
+                  "display": "add_payment_method"
+                },
+                "topics": [],
+                "message": "nil"
+              }
+            }
+          }
+        ],
+        "message": null
+      }
+    },
+    {
+      "id": "50",
+      "type": "feedback",
+      "attributes": {
+        "title": "Change rating",
+        "action": {},
+        "topics": [
+          {
+            "data": {
+              "id": "51",
+              "type": "feedback",
+              "attributes": {
+                "title": "My rating was incorrect by mistake",
+                "action": {
+                  "display": "rating_popup",
+                  "show_deals": true
+                },
+                "topics": [],
+                "message": "nil\n"
+              }
+            }
+          },
+          {
+            "data": {
+              "id": "52",
+              "type": "feedback",
+              "attributes": {
+                "title": "I changed my mind",
+                "action": {},
+                "topics": [],
+                "message": "If there was a problem with the Bank/Getter, please go to Problem with Bank/Getter section."
+              }
+            }
+          }
+        ],
+        "message": null
+      }
+    },
+    {
+      "id": "53",
+      "type": "feedback",
+      "attributes": {
+        "title": "Receipt",
+        "action": {
+          "show_deals": true
+        },
+        "topics": [
+          {
+            "data": {
+              "id": "54",
+              "type": "feedback",
+              "attributes": {
+                "title": "I need a receipt for this trip",
+                "action": {},
+                "topics": [],
+                "message": "Please let us know an E-Mail address where we can send the receipt to. "
+              }
+            }
+          }
+        ],
+        "message": null
+      }
+    },
+    {
+      "id": "55",
+      "type": "feedback",
+      "attributes": {
+        "title": "Support Inbox",
+        "action": {
+          "display": "chat"
+        },
+        "topics": [],
+        "message": null
+      }
+    }
+  ]
+}

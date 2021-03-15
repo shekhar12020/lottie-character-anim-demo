@@ -1,0 +1,280 @@
+[
+  {
+    "title": "Fees",
+    "topics": [
+      {
+        "title": "Claim fees",
+        "topics": [
+          {
+            "title": "Bank did not show up",
+            "topics": [],
+            "message": "Thank you, we will get in touch with the Bank to check this case."
+          },
+          {
+            "title": "I clicked by mistake on a NOW deal and got matched",
+            "topics": [],
+            "message": "Thank you, we will check this case and come back to you."
+          }
+
+          {
+            "title": "My fees got charged twice or more",
+            "topics": [],
+            "message": "Thank you, we will check this case and come back to you."
+          },
+          {
+            "title": "Exchanged amount was less than agreed in App",
+            "topics": [],
+            "message": "As per our terms and conditions, applicable fees are always based on the amount agreed in the request. Please refer to our terms & conditions for further questions. Happy to have you with us."
+          },
+          {
+            "title": "I have cancelled the deal ",
+            "topics": [],
+            "message": "As per our terms and conditions, cancellations need to happen in the app before the deal time. Please refer to our terms & conditions for further questions. Happy to have you with us."
+          }
+        ]
+      },
+      {
+        "title": "Why did I pay that amount of fees?",
+        "topics": [],
+        "message": "User gets explanation of his fee calculation"
+      }
+    ]
+  },
+  {
+    "title": "Problem with Bank/Getter",
+    "topics": [
+      {
+        "title": "Bank/Getter behaviour was not appropriate",
+        "topics": [
+          {
+            "title": "I want to report this user",
+            "topics": [
+              {
+                "title": "Unfriendly",
+                "topics": [],
+                "message": "Please give us more information, why you are unhappy with the Bank/Getter.",
+                "action": "textBox"
+              },
+              {
+                "title": "Aggressive",
+                "topics": [],
+                "message": "Please give us more information, why you are unhappy with the Bank/Getter.",
+                "action": "textBox"
+              },
+              {
+                "title": "Sexual harassment",
+                "topics": [],
+                "message": "Please give us more information, why you are unhappy with the Bank/Getter.",
+                "action": "textBox"
+              },
+              {
+                "title": "Other",
+                "topics": [],
+                "message": "Please give us more information, why you are unhappy with the Bank/Getter.",
+                "action": "textBox"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bank/Getter used counterfeit money",
+        "topics": [
+          {
+            "title": "I realized when doing the deal",
+            "topics": [],
+            "message": "Please report this incident as per local law to respective authorities. Please let us know in case you have further information.",
+            "action": "textBox"
+          },
+          {
+            "title": "I realized later",
+            "topics": [],
+            "message": "Please report this incident as per law to respective authorities. Please let us know in case you have further information.",
+            "action": "textBox"
+          }
+        ]
+      },
+      {
+        "title": "Bank/Getter went away before giving me my exchange",
+        "topics": [
+          {
+            "title": "Report this user",
+            "topics": [],
+            "message": "Please report this incident as per law to respective authorities. Please let us know in case you have further information.",
+            "action": "textBox"
+          }
+        ]
+      },
+      {
+        "title": "Bank/Getter is not matching with profile",
+        "topics": [
+          {
+            "title": "Report this user",
+            "topics": [],
+            "message": "Thank you for letting us know and supporting the Bebanx family."
+          }
+        ]
+      },
+      {
+        "title": "Bank/Getter wanted to do offline deal",
+        "topics": [
+          {
+            "title": "I did not agree",
+            "topics": [],
+            "message": "Thank you for letting us know and supporting the Bebanx family."
+          },
+          {
+            "title": " I agreed",
+            "topics": [],
+            "message": "Thank you for reporting this. Please note that this is not in line with our terms & conditions. In order to provide our service to you, please do not accept such deals in future anymore."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Technical problem",
+    "topics": [
+      {
+        "title": "My Paypal transaction did not work",
+        "topics": [
+          {
+            "title": "Report this",
+            "topics": [],
+            "message": "Thank you for letting us know and supporting the Bebanx family."
+          }
+        ]
+      },
+      {
+        "title": "I could not text the Bank/Getter",
+        "topics": [
+          {
+            "title": "Report this",
+            "topics": [],
+            "message": "Thank you for reporting this. As a general note: you can only text with other users until the deal was closed."
+          }
+        ]
+      },
+      {
+        "title": "I could not use the camera in the chat",
+        "topics": [
+          {
+            "title": "Report this",
+            "topics": [],
+            "message": "Thank you for letting us know and supporting the Bebanx family."
+          }
+        ]
+      },
+      {
+        "title": "I did not get a rating request",
+        "topics": [
+          {
+            "title": "Report this",
+            "topics": [],
+            "message": "Thank you for letting us know and supporting the Bebanx family."
+          }
+        ]
+      },
+      {
+        "title": "I had issues with Google maps",
+        "topics": [
+          {
+            "title": "Report this",
+            "topics": [],
+            "message": "Thank you for letting us know and supporting the Bebanx family."
+          }
+        ]
+      },
+      {
+        "title": "I had issues with the microphone",
+        "topics": [
+          {
+            "title": "Report this",
+            "topics": [],
+            "message": "Thank you for letting us know and supporting the Bebanx family."
+          }
+        ]
+      },
+      {
+        "title": "Bebanx was crashing",
+        "topics": [
+          {
+            "title": "Report this",
+            "topics": [],
+            "message": "Thank you for letting us know and supporting the Bebanx family."
+          }
+        ]
+      },
+      {
+        "title": "FX rate was not up to date",
+        "topics": [
+          {
+            "title": "Report this",
+            "topics": [],
+            "message": "Thank you for reporting this. As a general note: we are using latest FX rates from XE.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "My account",
+    "topics": [
+      {
+        "title": "Change password",
+        "topics": [],
+        "action": "Change password"
+      },
+      {
+        "title": "Change payment method",
+        "topics": [],
+        "action": "Change payment method"
+      },
+      {
+        "title": "Change phone number",
+        "topics": [],
+        "action": "Change phone number"
+      },
+      {
+        "title": "Change home town/residence town",
+        "topics": [],
+        "action": "Change home town"
+      },
+      {
+        "title": "Add payment method",
+        "topics": [],
+        "action": "Add payment method"
+      }
+    ]
+  },
+  {
+    "title": "Change rating",
+    "topics": [
+      {
+        "title": "My rating was incorrect by mistake",
+        "topics": [],
+        "action": "rating popup"
+      },
+      {
+        "title": "I changed my mind",
+        "topics": [],
+        "message": "If there was a problem with the Bank/Getter, please go to Problem with Bank/Getter section."
+      }
+    ]
+  },
+  {
+    "title": "Receipt",
+    "topics": [
+      {
+        "title": "I need a receipt for this trip",
+        "topics": [],
+        "message": "Please let us know an E-Mail address where we can send the receipt to.",
+        "action": "receipt email field"
+      }
+    ]
+  },
+  {
+    "title": "Support Inbox",
+    "topics": []
+  }
+]

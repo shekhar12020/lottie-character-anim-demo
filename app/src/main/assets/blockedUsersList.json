@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "type": "blocked_user",
+      "attributes": {
+        "name": "Manpreet",
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580563349015.jpg"
+      }
+    },
+    {
+      "id": "2",
+      "type": "blocked_user",
+      "attributes": {
+        "name": "Rishabh",
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580836447369.jpg"
+      }
+    },
+    {
+      "id": "3",
+      "type": "blocked_user",
+      "attributes": {
+        "name": "Shekar",
+        "photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/1580557680018.jpg"
+      }
+    }
+  ]
+}

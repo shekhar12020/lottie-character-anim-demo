@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "lottie-character-anim-demo"

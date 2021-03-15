@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "id": "3",
+      "type": "ticket",
+      "attributes": {
+        "reply_text": "very rude to deal with",
+        "feedback": {
+          "title": "Bank did not show up",
+          "action": {
+            "general": true,
+            "rule": "send_bank_request",
+            "notify": true
+          },
+          "message": "Thank you, we will get in touch with the Bank to check\n this case.",
+          "acknowledgment": {
+            "notification_text": {
+              "text": "Hi Bank, we would need your help. Can you let us know, if this deal was successful?",
+              "confirmation": {
+                "positive": "Disagree",
+                "negative": "Agree"
+              }
+            },
+            "replies": {
+              "message": "Confirmed from my side",
+              "sender_id": 1,
+              "receiver_id": 99,
+              "acknowledged": true,
+              "acknowledged_at": "2020-03-09T15:55:12.76835",
+              "acknowledgment_id": 58
+            }
+          }
+        },
+        "deal": {
+          "get_amount": 100,
+          "dealer_name": "Marc",
+          "give_amount": 107.98,
+          "get_currency": "EUR",
+          "dealer_rating": 4,
+          "give_currency": "CHF",
+          "dealer_photo_url": "http://s3.eu-central-1.amazonaws.com/bebanx-stage/media/selfie/JPEG_1580641244037.jpg",
+          "get_currency_flag_name": "European Union.png",
+          "give_currency_flag_name": "switzerland.png"
+        }
+      }
+    }
+  ]
+}
