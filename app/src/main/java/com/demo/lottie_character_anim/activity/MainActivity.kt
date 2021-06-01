@@ -1,4 +1,4 @@
-package com.demo.lottie_character_anim
+package com.demo.lottie_character_anim.activity
 
 import android.animation.Animator
 import android.os.Bundle
@@ -7,6 +7,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.lottie.LottieAnimationView
+import com.demo.lottie_character_anim.R
+import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -38,16 +40,18 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         talkAnimation.speed = 6f
         talkAnimation.imageAssetsFolder = "images/"
         talkAnimation.setAnimation("character_anim.json")
+        var background = intent.getIntExtra("BgImage",0)
+        var inputText = intent.getStringExtra("inputValue")
+        layoutId.setBackgroundResource(background)
+        textView.setText(inputText)
 
-        val wordToSpell = findViewById<TextView>(R.id.textInputBox).text
+        speakButton.setOnClickListener {
 
-        findViewById<TextView>(R.id.speakButton).setOnClickListener {
-
-            tts?.speak(wordToSpell, TextToSpeech.QUEUE_FLUSH, null, null)
+            tts?.speak(textView.text, TextToSpeech.QUEUE_FLUSH, null, null)
 
             var charPosition = 0
 
-            var range = getRange(wordToSpell[charPosition++])
+            var range = getRange(textView.text[charPosition++])
             talkAnimation.setMinAndMaxFrame(range.split("-")[0].toInt(), range.split("-")[1].toInt())
             talkAnimation.addAnimatorListener((object : Animator.AnimatorListener {
                 override fun onAnimationStart(anim: Animator?) {
@@ -55,9 +59,9 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
                 override fun onAnimationEnd(anim: Animator?) {
                     talkAnimation.removeAllAnimatorListeners()
-                    if (charPosition < wordToSpell.length) {
+                    if (charPosition < textView.text.length) {
                         talkAnimation.addAnimatorListener(this)
-                        range = getRange(wordToSpell[charPosition++])
+                        range = getRange(textView.text[charPosition++])
                         talkAnimation.setMinAndMaxFrame(range.split("-")[0].toInt(), range.split("-")[1].toInt())
                         talkAnimation.playAnimation()
 //                } else {
